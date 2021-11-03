@@ -1,6 +1,7 @@
 import discord
-import zentools
-import setupfile
+import os
+os.system("python setupfile.py &")
+os.system("python zentools.py &")
 from discord.ext import commands
 from keep_alive import keep_alive
 bot = commands.Bot(command_prefix="COMMAND_PREFIX_HERE")
