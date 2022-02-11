@@ -19,7 +19,7 @@ async def test(ctx):
   
 # RUN THE BOT:
 
-bot.run("")
+bot.run(os.environ['token'])
 
 # PLEASE NOTE: If you are using any public code editor, make sure the token is private. 
 # Anyone can login and destroy your server through the bot.
