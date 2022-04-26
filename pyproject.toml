@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "repl_python3_BasicBot"
 version = "0.1.0"
-description = ""
-authors = ["EricPlayzYT <<>>"]
+description = "A basic bot built by Eric and exported by those who forked this."
+authors = ["EricPlayzYT <developer>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
