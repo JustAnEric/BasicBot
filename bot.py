@@ -1,13 +1,11 @@
 import discord
 import os
-from setupfile import start_setup
-os.system("python zentools.py &")
+from functionalities import Actions, Events, Main
 from discord.ext import commands
 bot = commands.Bot(command_prefix="COMMAND_PREFIX_HERE")
 
 @bot.event
 async def on_connect():
-  start_setup() # SETUP YOUR BOT
   print("Starting setup...")
   
 # COMMANDS:
