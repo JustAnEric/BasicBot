@@ -5,7 +5,7 @@ description = "A basic bot built by Eric and exported by those who forked this."
 authors = ["EricPlayzYT <developer>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.9,<4.0"
 discord = "^1.7.3"
 
 [tool.poetry.dev-dependencies]
